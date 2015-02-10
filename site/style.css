@@ -1,0 +1,506 @@
+
+
+
+#vin-drycker {
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 50%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+#ol-drycker {
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 50%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+
+#lask-drycker {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 50%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#dryck-bilder1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#dryck-bilder2{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+
+#dryck-bilder3{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+#datepicker {
+    background: transparent;
+    width: 96%;
+    font-size: 1.3vw;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #000;
+    height: 100%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    padding-left: 4%;
+}
+
+#bilder-index {
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.bilder img{
+  margin-right:30px;
+  margin-top:5px;
+  width:180px;
+  float:left;
+}
+
+#calendar {
+    width: 10%;
+    height: 6%;
+    background-color: #d3d3d3;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 60%;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.);
+}
+
+#nav-menu {
+    position: absolute;
+    margin-left: 67.8%;
+    margin-top: 2.97%;
+}
+
+
+#nav-menu li ul {
+	position: absolute;
+	width: 10em;
+	left: -999em;
+    color: #000000;
+}
+
+#nav-menu li:hover ul {
+	left: auto;
+}
+
+
+
+#nav-menu, #nav-menu ul {
+	padding: 0;
+	list-style: none;
+}
+
+#nav li {
+	float: left;
+	width: 10em;
+
+}
+
+#nav-menu a {
+	display: block;
+	width: 10em;
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    margin-top: 5%;
+}
+
+
+#p-drycker {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+    font-style: italic;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+#p-forretter {
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 45%;
+    font-style: italic;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+#p-varmretter {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 45%;
+    font-style: italic;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+#p-efterretter {
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 45%;
+    font-style: italic;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+
+#menu-efterretter {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 36%;
+    color: black;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#menu-varmretter {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 29%;
+    color: black;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#menu-forretter {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 22%;
+    color: black;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#menu-drycker {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 15%;
+    color: black;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#boka-bord-info {
+    position: absolute;
+    margin-top: 13%;
+    font-size: 13px;
+    margin-left: 17%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    font-style: italic;
+}
+
+#bokning-info {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 35%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    text-decoration: underline;
+    font-style: italic;
+    color: #000000;
+
+}
+
+
+#bokning-text1 {
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 7%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    font-size: 35px;
+}
+
+#boka-bord-submit {
+        background: transparent;
+        width: 100%;
+        font-size: 1.3vw;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        -webkit-appearance: none;
+        color: #000;
+        height: 100%;
+        font-family: sans-serif, "Courier New", courier, monospace;
+        text-decoration: underline ;
+}
+
+#boka-bord-container5 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 48%;
+}
+
+#tid-box {
+        background: transparent;
+        width: 83%%;
+        font-size: 1.3vw;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        -webkit-appearance: none;
+        color: #000;
+        height: 100%;
+        font-family: sans-serif, "Courier New", courier, monospace;
+        padding-left: 17%;
+}
+
+
+#tid {
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 33%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#boka-bord-container4 {
+    width: 10%;
+    height: 6%;
+    background-color: #d3d3d3;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 29%;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.);
+}
+
+#namn {
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 63%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#Namn-box {
+    background: transparent;
+    width: 77%;
+    font-size: 1.3vw;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #000;
+    height: 100%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    padding-left: 23%;
+
+}
+
+#boka-bord-container3{
+    width: 10%;
+    height: 6%;
+    background-color: #d3d3d3;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 60%;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.);
+}
+
+#dag {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 63.7%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#antal-platser {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 30.7%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+
+#boka-bord-dropdown-menu1 {
+    background: transparent;
+    width: 100%;
+    font-size: 1.3vw;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #000;
+    height: 100%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    padding-left: 25%;
+
+}
+
+#boka-bord-dropdown-menu {
+    background: transparent;
+    width: 100%;
+    font-size: 1.3vw;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #000;
+    height: 100%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    padding-left: 45%;
+}
+
+
+#container1 {
+
+    width: 10%;
+    height: 6%;
+    background-color: #d3d3d3;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 29%;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.);
+}
+
+#social-links-td {
+    color: black;
+}
+
+#social-links {
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 33%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#social-links-table {
+    border-spacing: 30px;
+}
+
+#karta {
+    width: 500px;
+    height: 400px;
+    background-color: #CCCCCC;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 29%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#lasmer {
+    position: absolute;
+    color: black;
+    margin-top: 38%;
+    margin-left: 75%
+}
+
+#om-oss-header {
+    position: absolute;
+    margin-top: 10%;
+    padding-left: 35%;
+    padding-right: 20%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+
+
+
+#om-oss-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 18%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+
+
+
+#ipsum-lorem {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 62%;
+    padding-right: 5%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    text-align: center;
+}
+
+#chosen-page-header {
+    text-decoration: underline;
+}
+
+#valkommen {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 68%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+}
+
+#info-bar {
+    width: 60%;
+    height: 65%;
+    background-color: #d3d3d3;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+#subheadings {
+    border-spacing: 18px;
+}
+
+
+#Header {
+    background-color: #000000;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.52);
+}
+
+#Tr1 {
+    color: lightgrey;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 0.7%;
+    font-size: 1.3vw;
+}
+
+#tr2 {
+    color: lightgrey;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 0.7%;
+    font-size: 1.3vw;
+}
+
+#logo {
+    color: lightgrey;
+    position: absolute;
+    margin-left: 39.8%;
+    margin-top: 2%;
+    font-size: 4vw;
+}
+
+#header-titlar {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+#header-titlar:hover, #logo:hover, #clickable-link:hover, #menu-hover:hover, #menu-dropdowns:hover {
+    color: #b0c4de;
+}
+
+#info-bar-pages:hover, #lasmer:hover, #social-links-td:hover, #bokning-info:hover, #menu-drycker:hover, #menu-forretter:hover, #menu-varmretter:hover, #menu-efterretter:hover{
+    color: darkgrey;
+ }

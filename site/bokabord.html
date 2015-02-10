@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title></title>
+    <head>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+</head>
+<body>
+
+<div id="Header">
+    <a href="index.html">
+        <h1 id="logo">TRANAN.</h1>
+    </a>
+
+    <table id="subheadings">
+        <tr id="Tr1">
+            <td>
+                <a id="header-titlar" href="bokabord.html">
+                    <div>
+                         Boka bord
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a id="header-titlar" href="omoss.html">
+                    <div>
+                         Om oss
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr id="tr2">
+            <td>
+                <a id="header-titlar" href="hittahit.html">
+                    <div>
+                         Hitta hit
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="nav-meny-div">
+    <ul id="nav-menu">
+	<li><a id="menu-hover" href="#">Meny</a>
+		<ul>
+			<li><a style="color: #d3d3d3" id="menu-dropdowns" href="menu-drycker.html">Drycker</a></li>
+			<li><a style="color: black" id="menu-dropdowns"  href="menu-forretter.html">Förrätter</a></li>
+			<li><a style="color: #000000" id="menu-dropdowns"  href="menu-varmretter.html">Varmrätter</a></li>
+			<li><a style="color: #000000" id="menu-dropdowns"  href="menu-efterretter.html">Efterrätter</a></li>
+		</ul>
+	</li>
+    </ul>
+</div>
+
+
+<p id="antal-platser">Antal platser</p>
+
+
+<p id="dag">Dag</p>
+
+<p id="namn">Namn</p>
+
+<p id="tid">Tid</p>
+
+<div>
+    <form action="bokningklarad.html" method="GET">
+        <div id="boka-bord-container3">
+            <input id="Namn-box" type="text" name="Namn" placeholder="Förnamn"><br>
+        </div>
+        <div id="boka-bord-container4">
+            <input id="tid-box" type="text" name="Tid" placeholder="t.ex. 14:02"><br>
+        </div>
+        <div id="boka-bord-container2">
+            <select id="boka-bord-dropdown-menu1" >
+                 <option value="2">Tisdag</option>
+                 <option value="3">Onsdag</option>
+                 <option value="4">Torsdag</option>
+                 <option value="5">Fredag</option>
+                 <option value="6">Lördag</option>
+                 <option value="7">Söndag</option>
+                 <option value="1" selected>Måndag</option>
+             </select>
+        </div>
+        <div id="container1">
+            <select id="boka-bord-dropdown-menu" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="" selected>0</option>
+            </select>
+        </div>
+        <div id="boka-bord-container5">
+            <input id="boka-bord-submit" type="submit" value="Boka">
+        </div>
+        <div id="calendar">
+            <input id="datepicker" type="text" name="datum" placeholder="Tryck för datum" />
+        </div>
+    </form>
+</div>
+
+<p id="boka-bord-info">"Våra reserveringar kan endast avregistreras igenom att ringa oss, om det inte sker någon avbokning kommer 100 kr krävas vid nästa bokning."</p>
+

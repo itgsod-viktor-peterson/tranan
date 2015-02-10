@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title></title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="Header">
+    <a href="index.html">
+        <h1 id="logo">TRANAN.</h1>
+    </a>
+
+    <table id="subheadings">
+        <tr id="Tr1">
+            <td>
+                <a id="header-titlar" href="bokabord.html">
+                    <div>
+                         Boka bord
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a id="header-titlar" href="omoss.html">
+                    <div>
+                         Om oss
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr id="tr2">
+            <td>
+                <a id="header-titlar" href="hittahit.html">
+                    <div>
+                         Hitta hit
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="nav-meny-div">
+    <ul id="nav-menu">
+	<li><a id="menu-hover" href="#">Menu</a>
+		<ul>
+			<li><a style="color: #d3d3d3" id="menu-dropdowns" href="menu-drycker.html">Drycker</a></li>
+			<li><a style="color: black" id="menu-dropdowns"  href="menu-forretter.html">Förrätter</a></li>
+			<li><a style="color: #000000" id="menu-dropdowns"  href="menu-varmretter.html">Varmrätter</a></li>
+			<li><a style="color: #000000" id="menu-dropdowns"  href="menu-efterretter.html">Efterrätter</a></li>
+		</ul>
+	</li>
+    </ul>
+</div>
+
+
+<div id="bilder-index">
+<div class="start-bild">
+  <img src="../PSD/fixed-bild4.jpg" />
+</div>
+
+<div class="bilder">
+   <img src="../PSD/fixed-bild1.jpg" />
+   <img src="../PSD/fixed-bild2.jpg" />
+    <img src="../PSD/fixed-bild3.jpg" />
+</div>
+</div>
+<script>
+    $('.bilder img').click(function() {
+    var bild = this;
+    var src = this.src;
+    $('.start-bild img').fadeOut(400,function(){
+        bild.src = this.src;
+        $(this).fadeIn(400)[0].src = src;
+    });
+});
+</script>
+
+<h2 id="valkommen">Välkommen till Tranan! </h2>
+<p id="ipsum-lorem">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus ultrices accumsan.
+    Quisque posuere nisi nunc, sit amet egestas diam vehicula sit amet. Maecenas volutpat ligula arcu, id faucibus risus
+    dapibus vel. Nunc rhoncus pellentesque varius. Donec posuere vel eros a pulvinar. Nunc dignissim elit quis quam
+    consectetur posuere. Sed facilisis turpis ipsum, ut ultrices arcu sagittis ut. Donec porttitor aliquet augue, in
+    cursus mauris bibendum sed. Integer varius dignissim elit, eget cursus mi varius in. Interdum et malesuada fames ac
+    ante ipsum primis in faucibus. Aliquam vestibulum rutrum sapien ac consequat. Vivamus at pellentesque elit, a lacinia
+    turpis. Quisque quam risus, facilisis quis commodo eu, fermentum ut neque. Donec vitae ultrices tellus, quis iaculis
+    nulla...
+</p>
+<div>
+    <a id="lasmer" href="omoss.html">
+        Fortsätt läs här
+    </a>
+</div>
+
+
+</body>
+</html>
